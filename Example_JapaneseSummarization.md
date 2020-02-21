@@ -226,11 +226,12 @@ ans = "names = ["one","two","three","four","five","six"];for ii=1:5 % 10‰ñ ‚©‚ç 
 ‚Æˆø‚«‘±‚«Žc”O‚ÈŠ´‚¶‚É‚È‚è‚Ü‚·B
 
 
-
 ## 3.2 ’n“¹‚É `<DETAILS>` ‘Îô
 
 
 ‚±‚±‚Í‚Æ‚É‚©‚­“®‚¯‚Î‚¢‚¢‚Æ‚¢‚¤‚±‚Æ‚ÅAˆêŒÂ‚Ã‚Â `<DETAILS>` ‚ª“ü‚Á‚¿‚á‚Á‚Ä‚¢‚é‚©Šm”F‚µ‚Äíœ‚µ‚Ü‚·B
+
+
 ```matlab
 selector = "p,li";
 subtrees = findElement(tree,selector);
@@ -285,7 +286,11 @@ ans = "¡‰ñ‚Í­‚µ‚¾‚¯”wL‚Ñ‚µ‚ÄAPowerPoint ‚Ìƒeƒ“ƒvƒŒ[ƒg‚ðŽg‚Á‚½—á‚ðÐ‰î‚µ‚Ü‚·
 
 `getSummary` ŠÖ”‚É‚µ‚Äiƒ\[ƒX‚Íƒy[ƒW‰º‹Lj‘¼‚Ì‹LŽ–‚É‚àŽŽ‚µ‚Ä‚Ý‚Ü‚·B‘æŽOˆø”‚Å—v–ñ•¶‚Ì”‚ðŽw’è‚·‚é‚æ‚¤‚É‚µ‚Ü‚µ‚½B
 
-[**yMATLABz‹@ŠBŠwKƒAƒvƒŠã‚Ìƒvƒƒbƒg‚ðÄŒ»‚µ‚½‚¢‚ñ‚Å‚·‚ªEE**](https://qiita.com/eigs/items/38e31027529f92233b27)
+
+## [yMATLABz‹@ŠBŠwKƒAƒvƒŠã‚Ìƒvƒƒbƒg‚ðÄŒ»‚µ‚½‚¢‚ñ‚Å‚·‚ªEE](https://qiita.com/eigs/items/38e31027529f92233b27)
+
+
+­‚µ‘O‚É‘‚¢‚½‹LŽ–‚Å‚·B
 
 
 ```matlab
@@ -294,16 +299,14 @@ source = webread(URL);
 summary = getSummary(source, tokens, 1)
 ```
 ```
-summary = "iMATLAB Answers: u‰ñ‹AŠwKŠí‚ð—p‚¢‚Ä—\E‘ª‚µ‚½ƒvƒƒbƒgƒf[ƒ^E‚Ì‰ž“š‚Ì’l‚Ìo—Ív‚æ‚èˆø—pj ‚Æ‚©A CSVƒtƒ@ƒCƒ‹‚©‚çƒCƒ“ƒ|[ƒg‚µ‚½ƒf[ƒ^‚ð—p‚¢‚Ä‰ñ‹AŠwKŠí‚ðŽg—p‚µ‚½Žž,o—Í‚³‚ê‚é‰ž“šƒvƒƒbƒg‚Ì’l‚ÆŠÖ”‚ðo—Í‚·‚é‚É‚Í‚Ç‚¤‚·‚ê‚Î—Ç‚¢‚Å‚µ‚å‚¤‚©DiMATLAB Answers: u‰ñ‹AŠwKŠí‚Ì‰ž“šƒvƒƒbƒg‚É‚Â‚¢‚Äv‚æ‚èˆø—pj ‚È‚ÇAƒAƒvƒŠã‚ÌŒ‹‰Ê‚ðÄŒ»‚µ‚½‚¢A‘¼‚É‚à‰ž—p‚µ‚½‚¢‚Æ‚¢‚¤º‚à‚ ‚è‚Ü‚·B"
+summary = "iMATLAB Answers: u‰ñ‹AŠwKŠí‚ð—p‚¢‚Ä—\üü‘ª‚µ‚½ƒvƒƒbƒgƒf[ƒ^üü‚Ì‰ž“š‚Ì’l‚Ìo—Ív‚æ‚èˆø—pj ‚Æ‚©A CSVƒtƒ@ƒCƒ‹‚©‚çƒCƒ“ƒ|[ƒg‚µ‚½ƒf[ƒ^‚ð—p‚¢‚Ä‰ñ‹AŠwKŠí‚ðŽg—p‚µ‚½Žž,o—Í‚³‚ê‚é‰ž“šƒvƒƒbƒg‚Ì’l‚ÆŠÖ”‚ðo—Í‚·‚é‚É‚Í‚Ç‚¤‚·‚ê‚Î—Ç‚¢‚Å‚µ‚å‚¤‚©DiMATLAB Answers: u‰ñ‹AŠwKŠí‚Ì‰ž“šƒvƒƒbƒg‚É‚Â‚¢‚Äv‚æ‚èˆø—pj ‚È‚ÇAƒAƒvƒŠã‚ÌŒ‹‰Ê‚ðÄŒ»‚µ‚½‚¢A‘¼‚É‚à‰ž—p‚µ‚½‚¢‚Æ‚¢‚¤º‚à‚ ‚è‚Ü‚·B"
 ```
 
 
 ‚Ü‚ŸAA‚í‚©‚é‚©EEEB
 
 
-[**MATLAB‚©‚çCOTOHA API‚ðƒR[ƒ‹‚µ‚Ä‚Ý‚½**](https://qiita.com/aoimidori/items/644ac0e726d60a99cc4a)
-
-
+## [MATLAB‚©‚çCOTOHA API‚ðƒR[ƒ‹‚µ‚Ä‚Ý‚½](https://qiita.com/aoimidori/items/644ac0e726d60a99cc4a)
 
 
 @aoimidori ‚³‚ñ‚Ì‹LŽ–
@@ -333,8 +336,7 @@ summary = "MATLABƒR[ƒh‚Í‰º‹LB ‚±‚¿‚ç‚ÌŒöŽ®ƒŠƒtƒ@ƒŒƒ“ƒX‚Ì‚â‚è•û‚É‰ˆ‚Á‚ÄAŽŽ‚µ‚É
 2 •¶‚É‚·‚é‚ÆŠmŽÀ‚Å‚·‚©‚ËB
 
 
-
-[**yMATLABzOutlook‚©‚ç—\’è•\‚ðŽæ“¾‚·‚é**](https://qiita.com/motorcontrolman/items/03ea4d2a978d626f4337)
+## [yMATLABzOutlook‚©‚ç—\’è•\‚ðŽæ“¾‚·‚é](https://qiita.com/motorcontrolman/items/03ea4d2a978d626f4337)
 
 
 @motorcontrolman ‚³‚ñ‚ÌÅ‹ß‚Ì‹LŽ–‚àiŸŽè‚Éj‚Ü‚Æ‚ß‚¿‚á‚¢‚Ü‚·B
@@ -353,8 +355,8 @@ summary = " Žæ“¾‚Ì‘ÎÛ‚Æ‚È‚éOutlook—\’è•\‚Í‰º‹L‚Å‚·B •Ö—˜‚¾‚È‚Ÿ(œ’›) ÅIƒS[ƒ
 ƒlƒNƒXƒgƒXƒeƒbƒv‚É‚Ü‚Å‚Ó‚ê‚Ä‚éI
 
 
+## [MATLAB‚Å‹£’ø‚Ì‰ðÍ‚ðŽn‚ß‚æ‚¤i—L–¼‚È”ƒ‚¢•û‚ð‚µ‚Ä‚Ý‚æ‚¤j](https://qiita.com/teruqii/items/447d09d10e24fca0c20f)
 
-[**MATLAB‚Å‹£’ø‚Ì‰ðÍ‚ðŽn‚ß‚æ‚¤i—L–¼‚È”ƒ‚¢•û‚ð‚µ‚Ä‚Ý‚æ‚¤j**](https://qiita.com/teruqii/items/447d09d10e24fca0c20f)
 
 ƒ‚[ƒ^[ƒ{[ƒgƒ}ƒ“‚±‚Æ @teruqii ‚³‚ñ‚Ì‹LŽ–‚¾‚ÆEE
 
@@ -381,6 +383,7 @@ Qiita ‹LŽ–‚È‚ç‚Å‚ÍiHj‚È‚Ì‚©ƒvƒƒOƒ‰ƒ€ƒR[ƒh•”•ª‚ÌŽæ‚èˆµ‚¢‚ÉŽèŠÔŽæ‚è‚Ü‚µ‚½AA
 
 
 ƒAƒCƒfƒAŽŸ‘æ‚Å‚Í‚©‚È‚è–Ê”’‚¢‚±‚Æ‚É‚È‚è‚»‚¤ICOTOHA API ‚ðŽŽ‚µ‚Ä‚Ý‚½‚¢I‚Æ‚¢‚¤•û‚Ì‚¨–ð‚É—§‚Ä‚½‚çŠð‚µ‚¢‚Å‚·B
+
 
 # getSummary ŠÖ”
 ```matlab

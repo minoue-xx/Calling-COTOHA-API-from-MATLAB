@@ -1,19 +1,28 @@
 # What is COTOHA API?
 
+
 COTOHA API developed by NTT group provides natural language processing specialised in Japanese. See [https://api.ce-cotoha.com/contents/index.html](https://api.ce-cotoha.com/contents/index.html)
 
-COTOHA API is capable of various tasks (see [https://api.ce-cotoha.com/contents/api-all.html](https://api.ce-cotoha.com/contents/api-all.html) for details) 
-Some advanced capabilities are
 
-   -  Parsing 
+
+
+COTOHA API is capable of various tasks (see [https://api.ce-cotoha.com/contents/api-all.html](https://api.ce-cotoha.com/contents/api-all.html) for details) and some advanced capabilities are
+
+
+
+   -  Parsing  
    -  Reference Resolution 
    -  Keyword Extraction 
    -  Speech Recognition 
    -  Speech Synthesis 
    -  Summarization 
 
+
+
 I believe these capabilities to be fully functional, texts still need some preprocessing where MATLAB and Text Analytics Toolbox come in handy.
 
+
+  
 # Calling COTOHA API from MATLAB
 ## Step 0. Getting security tokens
 
